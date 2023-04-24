@@ -33,8 +33,10 @@ public class Edge {
     @Override
     public String toString() {
         return "Edge{" +
-                "source=" + source +
+                "id=" + id +
+                ", source=" + source +
                 ", destination=" + destination +
+                ", weight=" + weight +
                 '}';
     }
 }
